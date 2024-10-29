@@ -4,10 +4,10 @@ import {
   AriaDescriber,
   InteractivityChecker,
   MatCommonModule
-} from "./chunk-342IL6DF.js";
+} from "./chunk-WT6RU5HU.js";
 import {
   DOCUMENT
-} from "./chunk-WPY4FBL4.js";
+} from "./chunk-M3XO2OLD.js";
 import {
   ANIMATION_MODULE_TYPE,
   ApplicationRef,
@@ -35,7 +35,8 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵdirectiveInject
-} from "./chunk-77RZBIYQ.js";
+} from "./chunk-VG45QRLY.js";
+import "./chunk-4MJXQFHW.js";
 import "./chunk-NQ4HTGF6.js";
 
 // node_modules/@angular/material/fesm2022/badge.mjs

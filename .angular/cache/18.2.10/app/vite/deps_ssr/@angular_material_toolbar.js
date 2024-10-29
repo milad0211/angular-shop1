@@ -2,10 +2,10 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   MatCommonModule,
   Platform
-} from "./chunk-342IL6DF.js";
+} from "./chunk-WT6RU5HU.js";
 import {
   DOCUMENT
-} from "./chunk-WPY4FBL4.js";
+} from "./chunk-M3XO2OLD.js";
 import {
   ChangeDetectionStrategy,
   Component,
@@ -30,7 +30,8 @@ import {
   ɵɵprojection,
   ɵɵprojectionDef,
   ɵɵqueryRefresh
-} from "./chunk-77RZBIYQ.js";
+} from "./chunk-VG45QRLY.js";
+import "./chunk-4MJXQFHW.js";
 import "./chunk-NQ4HTGF6.js";
 
 // node_modules/@angular/material/fesm2022/toolbar.mjs

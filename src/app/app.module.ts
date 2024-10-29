@@ -23,6 +23,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProductsHeaderComponent } from './pages/home/components/products-header/products-header.component';
 import { FiltersComponent } from './pages/home/components/filters/filters.component';
 import { ProductBoxComponent } from './pages/home/components/product-box/product-box.component';
+import { CartComponent } from './pages/cart/cart.component';
+import { CartService } from './services/cart.service';
+import { StoreService } from './services/store.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -33,6 +37,7 @@ import { ProductBoxComponent } from './pages/home/components/product-box/product
     ProductsHeaderComponent,
     FiltersComponent,
     ProductBoxComponent,
+    CartComponent,
     
   ],
   imports: [
@@ -49,9 +54,12 @@ import { ProductBoxComponent } from './pages/home/components/product-box/product
     MatGridListModule,
     MatMenuModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
+    CartService,
+    StoreService,
     provideClientHydration(),
     provideAnimationsAsync()
   ],
